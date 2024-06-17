@@ -30,8 +30,8 @@ const CallDialog = ({ open, handleClose }) => {
 
   const { token } = useSelector((state) => state.auth);
 
-  const appID = 1642584767;
-  const server = "wss://webliveroom1642584767-api.coolzcloud.com/ws";
+  const appID = 1596762789;
+  const server = "wss://webliveroom1596762789-api.coolzcloud.com/ws";
 
   // roomID => ID of conversation => current_conversation.id
   // token => generate on backend & get on App
